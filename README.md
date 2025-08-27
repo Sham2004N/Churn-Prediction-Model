@@ -1,23 +1,19 @@
-# Churn-Prediction-Model
+📊 Customer Churn Prediction (Machine Learning)
 
-📊 Customer Churn Prediction Model
-This project focuses on building a machine learning model to predict customer churn based on historical customer data.
+1. Built and evaluated multiple ML models (Decision Tree, Random Forest, XGBoost) to predict customer churn with an accuracy of ~78%.
 
-🚀 Project Highlights:
-Cleaned and preprocessed raw customer data
-Handled class imbalance using SMOTE
-Performed feature encoding and scaling
-Trained multiple models: Decision Tree, Random Forest, and XGBoost
-Evaluated models using accuracy, confusion matrix, and classification report
-Saved the best model using pickle for future use
+2. Preprocessed raw data through feature engineering, encoding, and scaling, improving model performance and interpretability.
+
+3. Analyzed results using confusion matrix, classification report, and accuracy score, ensuring balanced precision and recall.
+
+4. Optimized model through hyperparameter tuning and developed a deployable workflow for real-world business applications.
 
 🔧 Tools & Libraries:
 Python
 pandas, NumPy
 scikit-learn
+Random forest
+Decision tree
 XGBoost
 imbalanced-learn (SMOTE)
 seaborn, matplotlib
-
-✅ Outcome:
-The final XGBoost model achieved high accuracy and is capable of predicting whether a customer is likely to churn, helping businesses take proactive action.
